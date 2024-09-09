@@ -17,3 +17,15 @@
 - baremetal на плате от STM32 и CubeIDE: настройка платы, работа с GPIO в режиме опроса и прерывания, таймеры, последовательные протоколы (UART, I2C, SPI, CAN) в режиме опроса и прерывания, работа с сетью, FreeRTOS и синхронизация (семафоры, спинлоки, мютексы)
 - Linux kernel modules: введение в драйверы линукс (структура драйвера и DeviceTree)
 - C on Linux: использование в С ништяков от линукса (файлы, процессы, потоки, IPC, синхронизация (семафоры, спинлоки, мютексы, conditional variables), сокеты, memory mapping
+
+Ссылки:
+
+Baremetal
+https://www.youtube.com/watch?v=rfBeq-Fu0hc&list=PLNyfXcjhOAwO5HNTKpZPsqBhelLF2rWQx
+https://www.youtube.com/watch?v=E25zzG0hRaA&list=PLZW8FgseiOipqt988UD_QkVMp2RgoZ-DO
+https://www.youtube.com/playlist?list=PLOYsAys6a6mkSJOMcSYTfkFHzx6vj_Fv-
+
+https://github.com/DanGdl/ArmCourseSolutions
+
+Networking
+https://www.youtube.com/watch?v=9SIjoeE93lo&list=
