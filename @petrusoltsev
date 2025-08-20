@@ -61,4 +61,15 @@ IDE использую CLion, разрабатываю на Debian12, компи
 Из чего я понял что системная разработка идет медленными темпами чем прикладная.
 Сейчас начал читать книгу "John Calcote - Autotools_ A Practitioner's Guide to GNU Autoconf, Automake, and Libtool-No Starch Press (2019)", т.к. почти все Си проекты,
 с которыми приходится сталкиваться собираются это системой сборки(autotools). Книга очень полезная, в ней описано не только asutotools, но и многое чего я не знал, но постоянно с этим сталкивался программируя на Си.
+20.08.2025 Прочитал книгу про autotools и еще книги, которые необходимы для освоения "samba"(файловый сервер UNIX + функции MS Active Directory).
+Вот список книг прочитанных:
+"Linkers and loaders" - не относится к samba, но заполняет пробел "как работают динамические библиотеки"
+"https://docs.python.org/3/tutorial/" - нужен, т.к. система сборки samba "waf" реализована на python
+"https://waf.io/book/" - описана система сборки waf, на которой сделана samba
+"Active Directory: Designing, Deploying, and Running Active Directory" - объясняет архитектуру Active Directory
+"Understanding and Deploying LDAP Directory Services, Second Edition" - Объясняет как работает LDAP(Active Directory используют LDAP в качестве базы данных)
+"DNS and BIND" - объясняет как работает DNS(Active Directory имеет свою реализацию DNS)
+"Using samba" - показывает как Active Directory реализован в samba
+
+
 
