@@ -1,0 +1,23 @@
+Предварительно читал документацию, т.к. имею привычку сначала понимать с чем мне предстоить работать, а потом работать уже.
+Я читал все тут, прежде чем приступить к практике:
+https://openwrt.org/about
+https://openwrt.org/docs/guide-developer/start:
+Все ссылки из "Table of contents", и многие из "Technical reference"
+
+Далее мне один из наших выпускников в OTUS "Программист С" предложил подсказывать в освоении openwrt.
+С этого момента началась практика:
+
+не плохое руководство как собрать из исходников https://4pda.to/forum/index.php?showtopic=821686
+
+1.Сборка OpenWRT под QEMU и запуск(https://openwrt.org/docs/guide-user/virtualization/qemu)
+
+2.Сборка OpwenWRT для своего роутера и прошивка роутера(в моем случае это https://openwrt.org/toh/xiaomi/xiaomi_redmi_router_ac2100):
+Target system: MediaTek Ralink MIPS
+Subtarget: MT7621 based boards
+Target profile: Xiaomi Mi Router AC2100
+
+3.Написать свое первое приложение. Изучить uci, ubus.
+Попробовать с помощью скриптов, например на lua, сделать настройку роутера, управления сетью. Изучить menuconfig.
+Какие там есть приложения, посмотреть, что может быть полезно для тебя.
+Первое приложение может быть hello word, скомпилировать его, закинуть на железку, установить.
+Потом можно расширять его функционал.
